@@ -231,6 +231,39 @@ button {
 }
 
 
+/* EXPERIENCE */
+.experience-card {
+    background: #111;
+    border: 1px solid rgba(214,167,122,0.2);
+    padding: 35px;
+    margin-bottom: 35px;
+    transition: 0.4s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    border-color: #d6a77a;
+}
+
+.experience-top span {
+    color: #d6a77a;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.experience-top h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.experience-card p {
+    color: #c7c7c7;
+    line-height: 1.9;
+}
+
+
 /* CONTACT */
 .contact-box {
     border: 1px solid rgba(214,167,122,0.3);
@@ -246,7 +279,6 @@ button {
     margin-top: 10px;
     font-size: 28px;
 }
-
 
 /* FOOTER */
 footer {
@@ -304,4 +336,21 @@ footer {
     .section {
         padding: 80px 30px;
     }
+}
+
+/* CERTIFICATE IMAGE */
+.certificate-image {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
+    border: 2px solid rgba(214,167,122,0.5);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: 0.4s ease;
+}
+
+.certificate-image:hover {
+    transform: scale(1.02);
+    border-color: #d6a77a;
 }
